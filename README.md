@@ -1,3 +1,65 @@
+# LLM Engineering Sandbox (AI Engineer Core Track)
+
+This repository is my personal hands-on lab for building production-grade Generative AI applications, working through Ed Donner's Core Track curriculum from scratch. It tracks my journey from setting up foundational workspaces to implementing frontier APIs, open-source models, vector databases (RAG), custom QLoRA fine-tuning, and autonomous multi-agent loops.
+
+## 🟩 Repository Architecture (`/my_workspace`)
+To keep things clean and prevent upstream repository updates from breaking my code, I isolate all of my custom solutions, assignment notebooks, and scratchpads inside the `my_workspace/` directory. 
+
+* **Upstream Sync:** Managed via a dual-remote pipeline (`origin` for my personal profile tracking, `upstream` to pull core course updates smoothly).
+
+---
+
+## 🛠️ Project Roadmap & Core Track Milestones
+I am progressively building and refining the 8 core commercial projects across the curriculum as I work through the modules:
+
+### 🔹 Week 1: AI-Powered Website Brochure Generator
+* **Focus:** Baseline capabilities and tokenization mechanics across 6 major frontier models. 
+* **The Project:** Building a Python tool that scrapes company website text, utilizes `tiktoken` to analyze text encoding profiles, and leverages LLM inference to auto-generate formatted marketing brochures.
+* **Status:** Setting up workspace & local notebooks ⚡
+
+### 🔹 Week 2: Multi-Modal Airline Support Agent
+* **Focus:** Handling multi-modal payloads (text, audio, images) over native vendor APIs.
+* **The Project:** Building a stateful, interactive customer support interface using Gradio UI, implementing native function-calling for backend operations.
+* **Status:** Planned 📋
+
+### 🔹 Week 3: Automated Meeting Minutes Extractor
+* **Focus:** Deep-dive into the open-source ecosystem (Hugging Face Hub, Transformers, Datasets) and local model quantization.
+* **The Project:** Processing audio payloads using local and proprietary pipelines to summarize meetings and cleanly extract structured action items.
+* **Status:** Planned 📋
+
+### 🔹 Week 4: AI-Powered Code Translation Engine
+* **Focus:** Performance benchmarking and evaluation of model weights for highly technical tasks.
+* **The Project:** Building an optimization engine designed to cross-compile raw Python programs into highly efficient, high-performance C++ code.
+* **Status:** Planned 📋
+
+### 🔹 Week 5: Enterprise Knowledge Worker Platform (RAG)
+* **Focus:** Data chunking strategies, vector embeddings, and local vector datastore orchestration.
+* **The Project:** Building a robust Retrieval-Augmented Generation (RAG) pipeline to surface precise contextual insights from dense internal company documents.
+* **Status:** Planned 📋
+
+### 🔹 Week 6: Product Price Prediction Engine (Capstone Part A)
+* **Focus:** Transitioning from basic API inference to true model ownership.
+* **The Project:** Cleaning and structuring specialized training datasets to orchestrate local fine-tuning pipelines for specific regression/prediction tasks.
+* **Status:** Planned 📋
+
+### 🔹 Week 7: Open-Source Competitive Pricing Model (Capstone Part B)
+* **Focus:** Advanced parameter-efficient training using QLoRA.
+* **The Project:** Optimizing smaller open-source model weights locally to match or outperform commercial frontier model instances on niche pricing datasets.
+* **Status:** Planned 📋
+
+### 🔹 Week 8: Autonomous Deal-Spotting Multi-Agent System (Capstone Part C)
+* **Focus:** Production deployment patterns and cooperative multi-agent architecture.
+* **The Project:** Orchestrating an autonomous loop where multiple specialized AI agents collaborate, evaluate live marketplace data, detect bargains, and trigger real-time alerts.
+* **Status:** Planned 📋
+
+---
+
+# 📖 Original Course Instructions & Setup Guide
+*Below are the standard setup instructions, environment configurations, and course guidelines provided by Ed Donner for reference.*
+
+---
+
+
 # LLM Engineering - Master AI and LLMs
 
 ## Your 8 week journey to proficiency starts today
