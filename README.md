@@ -15,7 +15,7 @@ I am progressively building and refining the 8 core commercial projects across t
 ### 🔹 Week 1: AI-Powered Website Brochure Generator
 * **Focus:** Baseline capabilities and tokenization mechanics across 6 major frontier models. 
 * **The Project:** Building a Python tool that scrapes company website text, utilizes `tiktoken` to analyze text encoding profiles, and leverages LLM inference to auto-generate formatted marketing brochures.
-* **Status:** Setting up workspace & local notebooks ⚡
+* **Status:** Completed
 
 ### 🔹 Week 2: Multi-Modal Airline Support Agent
 * **Focus:** Handling multi-modal payloads (text, audio, images) over native vendor APIs.
